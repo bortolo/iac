@@ -9,8 +9,9 @@ sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinu
 sudo yum -y install terraform
 
 # Ansible install (see https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
-sudo python3 -m pip install --user ansible -y
+sudo yum install ansible -y
+sudo amazon-linux-extras install ansible2 -y
 
 # Git install (see https://cloudaffaire.com/how-to-install-git-in-aws-ec2-instance/)
 sudo yum install git -y
-git clone https://github.com/bortolo/iac.git
+git clone https://github.com/bortolo/iac.git /home/ec2-user/gitrepo
