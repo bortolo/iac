@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T11:40:22.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="5oQh2MP_lq959pHtlGyT" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T11:41:32.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="r9mgZ3CRtp7totJPNjAZ" version="20.7.4" type="github">
   <diagram id="NdXxYkdmBAYruZXfNZ1_" name="Pagina-1">
     <mxGraphModel dx="954" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-OdFSkEys9uMwJtU3NCh-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="-OdFSkEys9uMwJtU3NCh-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#B3B3B3;fontColor=#333333;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="440" y="190" width="350" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="-OdFSkEys9uMwJtU3NCh-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="-OdFSkEys9uMwJtU3NCh-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#B3B3B3;fontColor=#333333;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="50" y="140" width="390" height="400" as="geometry" />
         </mxCell>
         <mxCell id="erIRMq-CCrMqLy0ukCyU-4" value="Availability zone" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" parent="1" vertex="1">
