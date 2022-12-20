@@ -20,9 +20,12 @@ module "vpc" {
   single_nat_gateway = false
 
   public_subnet_tags = local.tags
+  private_subnet_tags = local.tags
 
   vpc_tags = {
     Name = "vpc-iac"
+        Owner       = "andrea.bortolossi"
+    Environment = "all"
   }
 }
 

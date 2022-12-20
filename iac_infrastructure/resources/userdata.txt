@@ -1,0 +1,8 @@
+#!/bin/bash
+# To debug user_data logs, remember that you can have a look into /var/log/cloud-init.log file
+
+sudo yum update -y
+
+sudo yum install httpd -y
+
+sudo systemctl start httpd
