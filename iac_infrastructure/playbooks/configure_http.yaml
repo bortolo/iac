@@ -1,0 +1,24 @@
+---
+- hosts: all
+  remote_user: "{{user}}"
+
+  vars:
+    script_path_origin: ../resources/index.html
+    script_path_target: /var/www/html
+    service_name: httpd
+    user: root
+
+  tasks:
+    - name: Copy html index file
+      become: yes
+      copy:
+       src: "{{script_path_origin}}"
+       dest: "{{script_path_target}}"
+
+    - name: restart service {{service_name}}, in all cases, also issue daemon-reload to pick up config changes
+      become: yes
+      systemd:
+        state: restarted
+        daemon_reload: yes
+        enabled: yes
+        name: "{{service_name}}"
